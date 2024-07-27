@@ -64,6 +64,7 @@ nav{
     border: none;
     margin-left: 0px;
 }
+
 .primary-buttonn{
     background-color:#222222;
     /* background-color: #E6533C; */
@@ -78,12 +79,12 @@ nav{
 .pre-title{
     
     width: 100%;
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #222222;
 }
+
 #title{
     font-size: 3rem;
 }
@@ -91,6 +92,7 @@ nav{
 #sp2{
     font-style: ;
 }
+
 .first-para{
     width: 50%;
 }
@@ -107,6 +109,124 @@ nav{
     }
     .primary-button{
         display: flex;
+        flex-direction: row;
+    }
+    ul li{
+        display: none;
+    }
+    .twob{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.motiv{
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 5em;
+}
+
+.head{
+    font-size: 3em;
+    font-weight: 900;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-container img{
+    border-radius: 50%;
+}
+
+.alignment{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.run{
+    background-color: #525659;
+    border-radius: 2rem;
+    height: 21em;
+    width: 74em;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.run img{
+    border-radius: 2em;
+    margin-left: 25em;
+    
+}
+
+.side{
+    height: 18em;
+    width: 30em;
+}
+
+@media screen and (max-width:576px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+
+@media screen and (max-width:576px) {
+    .run{
+        /* display: grid;grid-template-columns: repeat(1,1fr); */
+        flex-direction: column;
+        
+        
+    }
+}
+
+.simple{
+    height: 2em;
+    width: 25em;
+    margin: 0 auto;
+    padding: 10em;
+}
+
+
+table{
+    border-collapse: collapse;
+    height: 12em;
+    width: 22em;
+}
+.flexi{
+    display: flex;
+    justify-content: space-around;
+        height: 17em;
+        width: 100%;
+        background-color: mediumvioletred;
+        padding: 3em;
+}
+
+@media screen and (max-width:576px){
+    .flexi{
+        display: flex;
         flex-direction: column;
     }
+}
+.hello{
+    text-align: center;
+    margin: 5em;
+}
+ .grid-contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.foot{
+    height: 22em;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9em;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    
 }
