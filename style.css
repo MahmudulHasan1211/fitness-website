@@ -1,4 +1,6 @@
-
+body{
+    margin: 0 auto;
+}
 
 
 /* font */
@@ -111,7 +113,7 @@ nav{
         display: flex;
         flex-direction: row;
     }
-    ul li{
+    ul {
         display: none;
     }
     .twob{
@@ -152,6 +154,7 @@ nav{
     padding: 2em;
     display: flex;
     justify-content: space-around;
+    
 }
 .run img{
     border-radius: 2em;
@@ -161,7 +164,8 @@ nav{
 
 .side{
     height: 18em;
-    width: 30em;
+    width: 25em;
+    padding-left: 4rem;
 }
 
 @media screen and (max-width:576px) {
@@ -194,12 +198,16 @@ table{
     height: 12em;
     width: 22em;
 }
+
+tr{
+   text-align: center;
+}
 .flexi{
     display: flex;
     justify-content: space-around;
         height: 17em;
         width: 100%;
-        background-color: mediumvioletred;
+        background-color: #191919;
         padding: 3em;
 }
 
@@ -220,7 +228,7 @@ table{
 .foot{
     height: 22em;
     width: 100%;
-    background-color: blue;
+    background-color: gray;
     display: flex;
     justify-content: space-evenly;
     padding-top: 9em;
@@ -230,3 +238,27 @@ ul li{
     display: flex;
     
 }
+.opaciity{
+    opacity: 0.4;
+}
+.opaciiity{
+    opacity: 0.3;
+    color: gray;
+}
+
+#B{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 0rem;
+}
+.running{
+    font-size:xx-large
+}
+.new{
+    padding-bottom: 3rem;
+}
+
+
+
+
+
