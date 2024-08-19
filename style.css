@@ -1,8 +1,16 @@
 /* Resetting some basic styles to prevent overflow */
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    /* box-sizing: border-box;
+    margin: 0;
+    padding: 0; */
+
+}
+#B{
+    /* padding-left:1rem; */
+    font-size: 2.5rem;
 }
 
 
@@ -96,6 +104,8 @@ nav ul a {
     align-items: center;
     background-color: #222222;
     padding: 50px 0;
+    padding-left: 14rem;
+    background-image: linear-gradient(#1B1B1B,#222222, #090909)
     
 }
 
@@ -109,6 +119,7 @@ nav ul a {
 
 .first-img {
     width: 50%;
+    
 }
 
 .opa {
@@ -122,15 +133,16 @@ nav ul a {
 }
 
 .head {
-    font-size: 3em;
-    font-weight: 900;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    /* font-weight: 900; */
 }
 
 /* Grid Section */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 1.5rem;
 }
 
 .grid-container img {
@@ -146,10 +158,22 @@ nav ul a {
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    margin-top: 4rem;
 }
 
 .run img {
     border-radius: 2em;
+    
+}
+
+.running{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.nio{
+    text-align: justify;
+    padding-bottom: 2rem;
 }
 
 .side {
@@ -162,7 +186,9 @@ nav ul a {
     text-align: center;
     padding: 5em 1em; /* Added padding for small screens */
 }
-
+.hum{
+    padding-bottom: 1.5rem;
+}
 /* Flexi Section */
 .flexi {
     display: flex;
@@ -190,10 +216,10 @@ nav ul a {
     margin: 5em 0;
 }
 
-.grid-contain {
+.grid-contain{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.9em;
+    /* gap: 0.em; */
     background-color: #1A1A1A;
     margin-bottom: 3em;
 }
@@ -248,7 +274,7 @@ nav ul a {
     
     /* Grid Section */
     .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(1,1fr);
     }
 
     /* Run Section */
@@ -260,7 +286,7 @@ nav ul a {
     
     /* Meet Our Team Section */
     .grid-contain {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* Footer */
@@ -269,4 +295,49 @@ nav ul a {
         align-items: center;
         text-align: center;
     }
+    .pre-title{
+        padding-left: 0rem;
+    }
+    .flexi{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .foot{
+        padding-left: 0px;
+    } */
+}
+
+/* tranning titlle */
+.train-title{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+}
+
+/* tranning desec */
+.desopaciity{
+    text-align:justify;
+    opacity: 0.4;
+}
+.grid-contain img{
+    height: 19em;
+    width: 23em;
+    border-radius: 1em;
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+}
+
+form input{
+    background-color: #393939;
+    border: none;
+    padding-bottom: 1px;
+    
+}
+.in{
+    width: 21.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+.out{
+    height: 2rem;
+    border-radius: 0.5rem;
 }
